@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2b2929;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+.navegator {
+    width: 95%;
+    height: 920px;
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 5px;
+}
+
+.logo{
+    width: 180px;
+}
+ul{
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px 0 0 0;
+    list-style-type: none;
+    margin-top: 23px;
+    
+    
+}
+ul li a{
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-bottom: 2px solid transparent;
+    transition: 1s;
+    color: #ffffff;
+}
+ul li a:hover{
+    color: rgb(180, 61, 61);
+    font-size: 30px;
+    font-weight: 900;
+    border-bottom: 2px solid white;
+}
+
+
+
+/* ------------------------------------------------End the Nav------------------------------------------------------*/
+
+/* ------------------------------------------------start input log in------------------------------------------------------*/
+
+/* ------------------------------------------------End input log in------------------------------------------------------*/
+
+/* ------------------------------------------------start registeration container------------------------------------------------------*/
+
+/* ------------------------------------------------End registeration container------------------------------------------------------*/
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 0 ;
+    text-transform: uppercase;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #181717;
+    color: #ffffff;
+    font-size: 19px;
+}
+input:focus{
+    background-color: #020202;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#totall{
+    background-color: rgb(136, 24, 24);
+    border-radius: 15px;
+    padding: 10px 5px;
+}
+#totall::before{
+    content: "Totall: ";
+}
+button{
+    width: 100%;
+    background-color: rgb(84, 15, 148);
+    height: 50px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.7s;
+    text-transform: capitalize;
+}
+button:hover{
+    background-color: rgb(121, 27, 209);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btnsterch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnsterch button{
+    width: 45%;
+    margin: 5px 0;
+}
+#daleatall{
+    margin: 20px 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; 
+}
+table th{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+th,td{
+    padding: 5px;
+}

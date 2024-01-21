@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ALARM</title>
+</head>
+<body>
+    <div class="navegator">
+        <nav>
+            <img class="logo" src="Logo.png" alt="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">Product</a></li>
+                <li><a href="i_do.html">About</a></li>
+                <li><a href="contact.html">contact us</a></li>
+                <li><a href="soft.html">Social</a></li>
+
+            </ul>
+        </nav>
+    <div class="container">
+        <div class="head">
+            <h2>Alarm store</h2>
+            <p>special product for special client</p>
+        </div>
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+                <input onkeyup="getTotal()" type="number" id="taxes" placeholder="taxes">
+                <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+                <input onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
+                <small id="totall"></small>
+            </div>
+            <input type="number" id="count" placeholder="count">
+            <input type="text" id="category" placeholder="category">
+            <button id="submit">Create</button>
+
+
+
+
+
+
+        </div>
+        <div class="outputs">
+            <input type="text" onkeyup="searchData(this.value)" placeholder="Search" id="search">
+            <div class="btnsterch">
+                <button onclick="getsearchMode(this.id)" id="searchtitle">Search by title</button>
+                <button onclick="getsearchMode(this.id)" id="searchcatogary">Search by catogary</button>
+            </div>
+            <div id="daleatall">
+
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>  
+                        <th>taxes</th>   
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>totall</th>
+                        <th>category</th>
+                        <th>update</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <td><button onclick="" id="delete">delete</button></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
